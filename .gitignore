@@ -25,3 +25,6 @@ build/
 # Operating System files
 .DS_Store
 Thumbs.db
+
+# IntelliJ IDEA specific files
+*.iml
