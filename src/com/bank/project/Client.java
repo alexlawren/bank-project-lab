@@ -38,12 +38,11 @@ public class Client {
 
     @Override
     public String toString() {
-        // ОБЪЕДИНЕННАЯ ВЕРСИЯ: и новый формат, и информация о счетах
-        return "Client { " +
-                "id = \"" + id + "\", " +
-                "name = \"" + name + "\", " +
-                "age = " + age + ", " +
-                "accounts = " + accounts.size() +
-                " }";
+        return "Client{" +
+                "id='" + id + '\'' +
+                ", name='" + name + '\'' +
+                ", age=" + age +
+                ", accounts=" + accounts.size() +
+                '}';
     }
 }
